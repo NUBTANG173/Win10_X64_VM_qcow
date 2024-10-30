@@ -1,0 +1,17 @@
+<metadata>
+<identifier>windows-10-1809.7z</identifier>
+<mediatype>data</mediatype>
+<collection>opensource_media</collection>
+<creator>Nguyen Bao An Bui</creator>
+<date>2024-06-01</date>
+<description>-cpu core2duo,+avx -smp 4 -m 756M -drive file=/storage/emulated/0/Documents/10.qcow2,aio=threads,cache=unsafe,if=virtio -vga std -device virtio-balloon-pci -device intel-hda -device virtio-net-pci,netdev=n0 -netdev user,id=n0 -accel tcg,thread=multi,tb-size=1024</description>
+<language>eng</language>
+<scanner>Internet Archive HTML5 Uploader 1.7.0</scanner>
+<subject>Qemu</subject>
+<title>Windows 10 1809 for Vectras VM 2.9.1a</title>
+<subject>Windows</subject>
+<uploader>buinguyenbaoan2004@gmail.com</uploader>
+<publicdate>2024-06-02 12:51:31</publicdate>
+<addeddate>2024-06-02 12:51:31</addeddate>
+<curation>[curator]validator@archive.org[/curator][date]20240602125233[/date][comment]checked for malware[/comment]</curation>
+</metadata>
