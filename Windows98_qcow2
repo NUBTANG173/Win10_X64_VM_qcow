@@ -8,6 +8,8 @@ listing = {}
 for f in os.listdir(base):
 full_path = os.path.join(base, f)
 else:
+
+
 listing[f] = None
 return listing
 print(json.dumps(folder(sys.argv[1]))
