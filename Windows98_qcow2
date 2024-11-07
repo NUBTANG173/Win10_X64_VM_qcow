@@ -1,1 +1,13 @@
-qemu-img create -f qcow2 w98.qcow2 512M
+qemu-system-x86_64 -cdrom "isos/win98.iso" -boot order=d -drive file=w98.qcow2 -m 512
+qemu-img create -f qcow2 w98.qcow2 M- 512
+hdiutil makehybrid -iso -joliet -o 
+qemu-system-x86_64 -cdrom colordriver
+qemu-img convert -f qcow2 -O raw w98.qcow2 w98.img
+def folder(base):
+listing = {}
+for f in os.listdir(base):
+full_path = os.path.join(base, f)
+else:
+listing[f] = None
+return listing
+print(json.dumps(folder(sys.argv[1]))
