@@ -1,0 +1,1 @@
+qemu-img create -f qcow2 w98.qcow2 512M
